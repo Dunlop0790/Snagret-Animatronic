@@ -2,7 +2,7 @@
 
 A wireless animatronic neck controller inspired by the Burrowing Snagret from Pikmin. Built as a school project with the goal of going beyond basic servo control and learning BLE communication, state machines, and sensor integration.
 
-![Project Photo](images/overview.jpg)
+(To be added)
 
 ---
 
@@ -10,9 +10,7 @@ A wireless animatronic neck controller inspired by the Burrowing Snagret from Pi
 
 https://github.com/user-attachments/assets/your-video-id-here
 
-> Foundation demo showing wireless BLE joystick control of the two-segment neck mechanism. Head, silicone skin, and aesthetic details are still in progress.
-
----
+(To be added)
 
 ## Overview
 
@@ -26,14 +24,17 @@ The neck mechanism is a cable-driven continuum design with servo-actuated tendon
 
 ### Controller
 - ESP32 development board
-- 2x analog thumbstick joysticks (left = lower segment, right = upper segment)
-- 1S LiPo battery + TP4056 charge module + boost converter
+- 2x analog thumbstick joysticks
+- 1S LiPo battery
+- TP4056 charge module
+- 3.7V to 5V boost converter
 
 ### Robot
 - ESP32 development board
 - PCA9685 16-channel PWM servo driver (I2C)
-- 4x servos (2 per neck segment)
-- 1S LiPo battery + TP4056 charge module + boost converter
+- 4x 20kg servos (2 per neck segment)
+- 3S LiPo battery
+- 5V buck converter
 
 ---
 
@@ -110,12 +111,9 @@ The core wireless control system is functional. Planned features still in develo
 
 - Button input on joystick click pins for preset animation triggers
 - State machine (manual / idle sway / strike / burrow)
-- Articulated ball-and-socket spine replacing the current cable backbone
+- Alternate articulated ball-and-socket spine replacing the current cable backbone
 - Keyframe and parametric animation system
 - Head sculpt, silicone skin, fur, and eyes
 
 ---
 
-## About
-
-Built by Corey as part of a Mechatronics and Robotics program at Seminole State College of Florida. Inspired by animatronic builds at theme parks and the aesthetic of Nintendo's Pikmin series.
