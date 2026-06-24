@@ -2,15 +2,15 @@
 
 A wireless animatronic neck controller inspired by the Burrowing Snagret from Pikmin. Built as a school project with the goal of going beyond basic servo control and learning BLE communication, state machines, and sensor integration.
 
-(To be added)
+<img width="1920" height="2550" alt="c42695fb-c0c6-43a1-8c07-7d5171e41c56" src="https://github.com/user-attachments/assets/bbde52b7-41ac-4d31-a92e-d261ae12c6cf" />
+<img width="908" height="495" alt="image" src="https://github.com/user-attachments/assets/e46238ef-671b-4711-85aa-a0eff00bfbee" />
+<img width="908" height="456" alt="image" src="https://github.com/user-attachments/assets/c28719d1-c55c-45f9-936b-3c02d54a6d94" />
 
 ---
 
 ## Demo
 
 https://github.com/user-attachments/assets/your-video-id-here
-
-(To be added)
 
 ## Overview
 
